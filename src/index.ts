@@ -15,3 +15,6 @@ if (require.main === module) {
 }
 
 export { app };
+app.get("/", (req, res) => {
+  res.send("Welcome to the dope-shi server!");
+});
