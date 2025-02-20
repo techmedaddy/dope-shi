@@ -1,0 +1,25 @@
+plugins {
+    id 'com.github.node-gradle.node' version '3.0.1'
+}
+
+node {
+    version = '18.0.0'
+    npmVersion = '8.6.0'
+    download = true
+}
+
+task installDeps(type: NpmTask) {
+    args = ['install']
+}
+
+task buildApp(type: NpmTask) {
+    args = ['run', 'build']
+}
+
+task testApp(type: NpmTask) {
+    args = ['test']
+}
+
+task startApp(type: NpmTask) {
+    args = ['start']
+}
