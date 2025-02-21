@@ -1,5 +1,11 @@
 # Node.js TypeScript Server with CI/CD Pipeline
 
+
+
+
+
+![WhatsApp Image 2025-02-21 at 16 03 02_f8fe237a](https://github.com/user-attachments/assets/4e406e60-8f62-410d-a741-17486cfa9878)
+
 ## Project Overview
 
 This project is a basic DevOps portfolio project that demonstrates the setup of a Node.js server written in TypeScript, containerized using Docker, and integrated with a CI/CD pipeline using Jenkins and Gradle. The project showcases the use of various tools and technologies to automate the build, test, and deployment processes.
